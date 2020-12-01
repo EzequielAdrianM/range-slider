@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    implementation 'com.github.EzequielAdrianM:range-slider:1.0'
+    implementation 'com.github.EzequielAdrianM:range-slider:1.1'
 }
 ```
 
