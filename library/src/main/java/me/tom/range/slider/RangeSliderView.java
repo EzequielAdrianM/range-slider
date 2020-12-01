@@ -123,6 +123,9 @@ public class RangeSliderView extends View {
         invalidate();
     }
 
+    public int getMinValue() {return mMinValue;}
+    public int getMaxValue() {return mMaxValue;}
+
     @Override
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
