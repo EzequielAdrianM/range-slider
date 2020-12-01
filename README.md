@@ -15,7 +15,7 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.nanjingboy:range-slider:1.0'
+    implementation 'com.github.EzequielAdrianM:range-slider:1.0'
 }
 ```
 
@@ -26,6 +26,8 @@ dependencies {
 * `public void setOnValueChangedListener(OnValueChangedListener onValueChangedListener)`
 * `public void setRangeValues(ArrayList<Integer> values)`
 * `public void setMinAndMaxValue(int minValue, int maxValue)`
+* `public int getMinValue()`
+* `public int getMaxValue()`
 
 # License
 
